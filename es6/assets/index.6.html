@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="./src/index.6.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h2>ES6中新增的数组知识</h2>
+        <h3>1、JSON数组格式转换 --例1</h3>
+        <h3>2、Array.of()方法 --例2</h3>
+        <h3>3、find()实例方法 --例3</h3>
+        <p>所谓的实例方法就是并不是以Array对象开始的，而是必须有一个已经存在的数组，然后使用的方法，这就是实例方法（不理解请看下边的代码，再和上边的代码进行比对，你会有所顿悟）。这里的find方法是从数组中查找。在find方法中我们需要传入一个匿名函数，函数需要传入三个参数</p>
+        <p>value：表示当前查找的值</p>
+        <p>index：表示当前查找的数组索引。</p>
+        <p>arr：表示当前数组。</p>
+        <p>当有满足条件时，停止查找</p>
+        <h3>4、fill()实例方法 --例4</h3>
+        <p>fill()也是一个实例方法，它的作用是把数组进行填充，它接收三个参数，第一个参数是填充的变量，第二个是开始填充的位置，第三个是填充到的位置.</p>
+        <h3>5、数组的遍历 --例5</h3>
+        <h4>for…of循环 --例5-1</h4>
+        <h4>for…of数组索引 --例5-2</h4>
+        <h4>同时输出数组的内容和索引  --例5-3</h4>
+        <p>我们用entries()这个实例方法，配合我们的for…of循环就可以同时输出内容和索引了。</p>
+        <h3>6、entries()实例方法  --例6</h3>
+        <p>entries()实例方式生成的是Iterator形式的数组，那这种形式的好处就是可以让我们在需要时用next()手动跳转到下一个值</p>
+    </body>
+</html>
